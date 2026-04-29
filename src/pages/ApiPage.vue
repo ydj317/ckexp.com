@@ -12,7 +12,7 @@ const tabs = [
 
 const samples = {
   rates: `// GET /v1/rates
-const res = await fetch('https://api.topworld.co.kr/v1/rates?' + new URLSearchParams({
+const res = await fetch('https://api.ckexp.com/v1/rates?' + new URLSearchParams({
   freight_type: 'FCL',
   pol: 'KRPUS',
   pod: 'USLAX',
@@ -25,7 +25,7 @@ const res = await fetch('https://api.topworld.co.kr/v1/rates?' + new URLSearchPa
 const { data } = await res.json()
 // data => [{ carrier, vessel, etd, eta, transit, price, currency }, ...]`,
   booking: `// POST /v1/bookings
-await fetch('https://api.topworld.co.kr/v1/bookings', {
+await fetch('https://api.ckexp.com/v1/bookings', {
   method: 'POST',
   headers: {
     Authorization: 'Bearer \${TW_API_KEY}',
@@ -121,7 +121,7 @@ const copyCode = async () => {
           </h1>
           <p class="lead">
             REST · Webhook · SDK. 운임 조회부터 부킹·추적·송금까지,
-            탑월드 API 한 세트로 자사 시스템에 묶어둡니다.
+            C&k Express API 한 세트로 자사 시스템에 묶어둡니다.
           </p>
           <div class="actions">
             <router-link to="/login" class="btn btn-accent">API 키 발급받기</router-link>
@@ -165,7 +165,7 @@ const copyCode = async () => {
     <section class="why section">
       <div class="container">
         <div class="head">
-          <span class="eyebrow">WHY TOPWORLD API</span>
+          <span class="eyebrow">WHY C&k Express API</span>
           <h2 class="section-title">개발자가 사랑하는 물류 API</h2>
           <p class="section-subtitle">REST, Webhook, SDK까지. 통합에 필요한 모든 것을 제공합니다.</p>
         </div>
@@ -219,9 +219,9 @@ const copyCode = async () => {
           <li>
             <span class="num">02</span>
             <h3>SDK 설치</h3>
-            <pre class="snippet"><code>npm i @topworld/sdk
-yarn add @topworld/sdk
-pip install topworld</code></pre>
+            <pre class="snippet"><code>npm i @ckexp/sdk
+yarn add @ckexp/sdk
+pip install ckexp</code></pre>
           </li>
           <li>
             <span class="num">03</span>

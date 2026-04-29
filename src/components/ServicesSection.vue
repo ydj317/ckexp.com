@@ -61,7 +61,7 @@ const services = [
         </div>
         <p class="head-r">
           무역 한 건이 시작되는 순간부터 끝날 때까지,
-          탑월드는 6개의 모듈로 빈 공간을 메웁니다.
+          C&k Express는 6개의 모듈로 빈 공간을 메웁니다.
         </p>
       </div>
 

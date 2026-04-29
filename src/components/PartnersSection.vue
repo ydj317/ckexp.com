@@ -11,7 +11,7 @@ const partners = [
       <div class="row">
         <p class="label">
           <span class="dash"></span>
-          국내외 1,900여 화주사가 매주 탑월드의 컨테이너를 띄웁니다
+          국내외 1,900여 화주사가 매주 C&k Express의 컨테이너를 띄웁니다
         </p>
         <a href="#" class="see-all">전체 고객사 보기 →</a>
       </div>

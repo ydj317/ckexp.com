@@ -21,8 +21,7 @@ const cols = [
       <div class="top">
         <div class="brand">
           <a href="#" class="logo">
-            <img src="/logo.png" alt="탑월드" />
-            <span>TOPWORLD</span>
+            <img src="/logo.png" alt="C&k Express" />
           </a>
           <p class="tagline">투명한 스케줄, 합리적인 운임으로<br />당신의 글로벌 무역을 함께합니다.</p>
           <div class="social">
@@ -66,7 +65,7 @@ const cols = [
             <h4>고객 지원</h4>
             <ul>
               <li><strong>02-1234-5678</strong></li>
-              <li>support@topworld.co.kr</li>
+              <li>support@ckexp.com</li>
               <li>평일 09:00 - 18:00</li>
               <li>점심 12:30 - 13:30</li>
             </ul>
@@ -76,7 +75,7 @@ const cols = [
 
       <div class="legal">
         <p>
-          (주)탑월드 · 대표 홍길동 · 사업자등록번호 123-45-67890<br />
+          上海希凯国际货运代理有限公司 · 대표 홍길동 · 사업자등록번호 123-45-67890<br />
           서울특별시 강남구 테헤란로 000, 00층 · 통신판매업 신고: 제2026-서울강남-0000호
         </p>
         <div class="links">
@@ -87,7 +86,7 @@ const cols = [
       </div>
 
       <div class="copy">
-        <span>© 2026 TOPWORLD Co., Ltd. All rights reserved.</span>
+        <span>© 2026 C&k Express (Shanghai Cikai Int'l Freight Forwarding Co., Ltd.) All rights reserved.</span>
         <span>Built with ♥ for global traders.</span>
       </div>
     </div>
@@ -114,7 +113,7 @@ const cols = [
   margin-bottom: 20px;
 }
 .logo img {
-  height: 28px;
+  height: 56px;
 }
 .logo span {
   font-weight: 800;

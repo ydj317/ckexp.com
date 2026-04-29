@@ -35,8 +35,7 @@ const nav = [
   <header class="header" :class="{ scrolled }">
     <div class="container header-inner">
       <router-link to="/" class="logo">
-        <img src="/logo.png" alt="탑월드" class="logo-img" />
-        <span class="logo-text">TOPWORLD</span>
+        <img src="/logo.png" alt="C&k Express" class="logo-img" />
       </router-link>
 
       <nav class="nav-desktop">
@@ -70,8 +69,7 @@ const nav = [
       <aside v-if="mobileOpen" class="drawer">
         <div class="drawer-head">
           <router-link to="/" class="logo">
-            <img src="/logo.png" alt="탑월드" class="logo-img" />
-            <span class="logo-text">TOPWORLD</span>
+            <img src="/logo.png" alt="C&k Express" class="logo-img" />
           </router-link>
           <button class="close" @click="mobileOpen = false" aria-label="close">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -126,7 +124,7 @@ const nav = [
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 80px;
   gap: 16px;
 }
 
@@ -137,8 +135,9 @@ const nav = [
   flex-shrink: 0;
 }
 .logo-img {
-  height: 26px;
+  height: 52px;
   width: auto;
+  display: block;
 }
 .logo-text {
   color: #fff;
@@ -336,8 +335,7 @@ const nav = [
 }
 
 @media (max-width: 480px) {
-  .logo-img { height: 22px; }
-  .logo-text { font-size: 15px; }
-  .header-inner { height: 56px; }
+  .logo-img { height: 36px; }
+  .header-inner { height: 64px; }
 }
 </style>

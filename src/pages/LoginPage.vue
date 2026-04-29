@@ -24,13 +24,12 @@ const submit = (e) => {
     <div class="frame">
       <div class="left">
         <router-link to="/" class="brand">
-          <img src="/logo.png" alt="탑월드" />
-          <span>TOPWORLD</span>
+          <img src="/logo.png" alt="C&k Express" />
         </router-link>
         <h1>투명한 스케줄,<br />합리적인 운임으로<br /><span class="grad">더 빠른 무역.</span></h1>
         <p class="lead">
           1,900개 이상의 화주사가 신뢰하는<br />
-          디지털 포워딩 파트너 탑월드와 함께하세요.
+          디지털 포워딩 파트너 C&k Express와 함께하세요.
         </p>
         <ul class="bullets">
           <li>
@@ -109,7 +108,7 @@ const submit = (e) => {
             </label>
             <label class="field" v-if="mode === 'signup'">
               <span>회사명</span>
-              <input type="text" placeholder="(주)탑월드" required />
+              <input type="text" placeholder="C&k Express" required />
             </label>
             <label class="field">
               <span>비밀번호</span>
@@ -152,7 +151,7 @@ const submit = (e) => {
         </div>
 
         <p class="legal">
-          © 2026 TOPWORLD Co., Ltd. ·
+          © 2026 C&k Express ·
           <a href="#">이용약관</a> ·
           <a href="#">개인정보처리방침</a>
         </p>
@@ -204,7 +203,7 @@ const submit = (e) => {
   gap: 10px;
   margin-bottom: 32px;
 }
-.brand img { height: 28px; }
+.brand img { height: 56px; }
 .brand span {
   font-weight: 800;
   font-size: 18px;

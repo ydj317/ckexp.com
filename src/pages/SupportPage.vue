@@ -197,7 +197,7 @@ const filteredFaqs = computed(() => {
               </svg>
             </div>
             <h3>이메일</h3>
-            <strong>support@topworld.co.kr</strong>
+            <strong>support@ckexp.com</strong>
             <p>24시간 접수<br />영업일 4시간 이내 회신</p>
           </article>
           <article class="c-card">
@@ -207,7 +207,7 @@ const filteredFaqs = computed(() => {
               </svg>
             </div>
             <h3>카카오톡</h3>
-            <strong>@topworld</strong>
+            <strong>@ckexpress</strong>
             <p>플러스친구 추가<br />평일 09:00 - 18:00</p>
           </article>
         </div>
