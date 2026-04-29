@@ -7,7 +7,9 @@
       "Bash(cp \"C:/Users/32310/OneDrive/Desktop/e039880972c81109a76dc65d4696cefd.png\" \"C:/Users/32310/OneDrive/Desktop/topworld/public/logo.png\")",
       "Bash(npm --version)",
       "Bash(npm install *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(npm view *)",
+      "Bash(npm list *)"
     ]
   }
 }
