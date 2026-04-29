@@ -9,7 +9,14 @@
       "Bash(npm install *)",
       "Bash(npm run *)",
       "Bash(npm view *)",
-      "Bash(npm list *)"
+      "Bash(npm list *)",
+      "WebFetch(domain:www.ckexp.com)",
+      "WebFetch(domain:portal.worldex.kr)",
+      "Bash(curl -sk \"https://www.ckexp.com\")",
+      "Bash(curl -skL \"https://www.ckexp.com\" -o /tmp/ckexp.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -skL \"http://www.ckexp.com\" -o /tmp/ckexp.html)",
+      "WebSearch"
     ]
   }
 }
