@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.ship-da.com)",
+      "Bash(mkdir -p \"C:/Users/32310/OneDrive/Desktop/topworld/public\" \"C:/Users/32310/OneDrive/Desktop/topworld/src/components\" \"C:/Users/32310/OneDrive/Desktop/topworld/src/assets\")",
+      "Bash(cp \"C:/Users/32310/OneDrive/Desktop/e039880972c81109a76dc65d4696cefd.png\" \"C:/Users/32310/OneDrive/Desktop/topworld/src/assets/logo.png\")",
+      "Bash(cp \"C:/Users/32310/OneDrive/Desktop/e039880972c81109a76dc65d4696cefd.png\" \"C:/Users/32310/OneDrive/Desktop/topworld/public/logo.png\")",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
